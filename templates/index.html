@@ -20,15 +20,15 @@
             <td>{{ task.date_created.date() }}</td>
             <td>
                 <a href="/delete/{{task.id}}">Delete</a>
-                <a href="">Update</a>
+                <a href="/update/{{task.id}}">Update</a>
             </td>
         </tr>
         {% endfor %}
     </table>
 
     <form action="/" method="POST">
-    <input type="text" name="content" id="content">
-    <input type="submit" value="Add Task">
-</form>
+        <input type="text" name="content" id="content">
+        <input type="submit" value="Add Task">
+    </form>
 </div>
 {% endblock %}   
