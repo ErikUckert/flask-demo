@@ -1,41 +1,41 @@
 # flask-demo
 This Project is about building a small web application with flask
 
-## How to run the app and create a new database for the tasks
+### How to run the app and create a new database for the tasks
 
-### 1 - CREATE A DATABASE
-#### open python shell
+#### 1 - CREATE A DATABASE
+##### open python shell
 
 ```
 python3
 ```
 
-#### import db
+##### import db
 
 ```
 from app import db
 ```
 
-#### create database
+##### create database
 ```
 db.create_all()
 ```
 
-### 2 - RUN THE TASKMASTER WEB APP
+#### 2 - RUN THE TASKMASTER WEB APP
 
-#### if you are already in the python shell, exit it
+##### if you are already in the python shell, exit it
 
 ```
 exit()
 ```
 
-#### start server with
+##### start server with
 
 ```
 python3 app.py
 ```
 
-#### visit web app under 
+##### visit web app under 
 ```
 localhost:5000
 ```
