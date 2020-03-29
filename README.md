@@ -1,5 +1,5 @@
 # flask-demo
-This Project is about building a small web application with flask
+This Project is about building a small web application with flask. It's a simple "Todo" App, where you can create, update or delete tasks.
 
 ### How to run the app and create a new database for the tasks
 
